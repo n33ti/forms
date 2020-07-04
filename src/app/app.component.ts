@@ -28,7 +28,7 @@ export class AppComponent {
        marital: this.fb.control('U'),
        address2: this.fb.control('', Validators.min(0) ),
        address3: this.fb.control('' ,Validators.min(0)),
-       favfoo: this.fb.control('')
+       favfood: this.fb.control('')
 
 
     });
